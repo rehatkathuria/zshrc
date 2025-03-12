@@ -19,11 +19,13 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
+## Typescript / Node
 alias nc="tsc"
 alias nt="npm run test"
 alias ns="npm run start"
 alias nd="npm run dev"
 
+## Finder
 alias mm=". ~/.zshrc"
 alias mf="make format" 
 alias o='open .'
@@ -47,7 +49,7 @@ alias dd='rm -rf ~/Library/Developer/Xcode/DerivedData'
 ## Python
 alias pip='pip3'
 
-## Hock
+## Halfway
 alias cdhs='cd /Users/rehat/Developer/Repositories/halfway-server'
 alias cdhc='cd /Users/rehat/Developer/Repositories/halfway-cocoa'
 alias cdhw='cd /Users/rehat/Developer/Repositories/halfway.com'
